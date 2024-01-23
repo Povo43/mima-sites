@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+body{
+    margin: 0;
+    background-color: floralwhite;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    background-color: floralwhite;
+    align-items: center;
+    box-shadow: 2px 5px 5px 0 gray;
+}
+
+.header-logo{
+    display: flex;
+    text-decoration:none;
+    margin: 4px;
+}
+
+.logo{
+    height: 50px;
+    border-radius:50%;
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0;
+    margin-left: 10px;
+    color: black;
+}
+
+.top-media{
+    display: flex;
+}
+
+.top-media img{
+    width: 500px;
+}
+
+.slide-items__wrap{
+    width: 50%;
+}
