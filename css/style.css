@@ -37,7 +37,8 @@ h1{
 }
 
 .top-media img{
-    width: 500px;
+    width: 20%;
+    padding-top: 20%;
 }
 
 .slide-items__wrap{
