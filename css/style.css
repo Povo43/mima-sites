@@ -4,6 +4,9 @@
 body{
     margin: 0;
     background-color: floralwhite;
+    background-image: url(../images/logos/logo-big.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*ヘッダー*/
