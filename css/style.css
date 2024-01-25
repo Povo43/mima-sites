@@ -31,16 +31,3 @@ h1{
     margin-left: 10px;
     color: black;
 }
-
-.top-media{
-    display: flex;
-}
-
-.top-media img{
-    width: 40%;
-    height: ;
-}
-
-.slide-items__wrap{
-    width: 50%;
-}
