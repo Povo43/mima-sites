@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $('.slide-items').bxSlider({
         auto: true,
-        speed: 1000,
-        adaptiveHeight: true,
+        speed: 800,
         mode: 'fade',
+        pause: 3000,
     });
   });
   

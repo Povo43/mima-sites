@@ -1,5 +1,9 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: Zenkurenaido;
+    font-display: swap;
+    src: url("../fonts/ZenKurenaido-Regular.ttf") format("TrueType");
+    }
 
 body{
     margin: 0;
@@ -7,6 +11,7 @@ body{
     background-image: url(../images/logos/logo-big.jpg);
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Zenkurenaido', sans-serif;
 }
 
 /*ヘッダー*/
@@ -33,4 +38,21 @@ h1{
     margin: 0;
     margin-left: 10px;
     color: black;
+}
+
+.slide-items{
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.about{
+    background-color: floralwhite;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.about h2{
+    margin-top: 0;
+    color: darkslategray;
 }
