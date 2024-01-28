@@ -7,10 +7,7 @@
 
 body{
     margin: 0;
-    background-color: floralwhite;
-    background-image: url(../images/logos/logo-big.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #b3d3ac;
     font-family: 'Zenkurenaido', sans-serif;
 }
 
@@ -46,13 +43,26 @@ h1{
 }
 
 .about{
+    display: flex;
+    margin: 0 10px;
+}
+
+.about div{
     background-color: floralwhite;
-    margin: 0px 10px;
+    margin-right: 10px;
     padding: 10px 10px;
     border-radius: 10px;
+    box-shadow: 4px 4px 5px 0 gray;
 }
 
 .about h2{
     margin-top: 0;
     color: darkslategray;
+}
+
+.about img{
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    box-shadow: 4px 4px 5px 0 gray;
 }
