@@ -11,6 +11,10 @@ body{
     font-family: 'Zenkurenaido', sans-serif;
 }
 
+h2{
+    margin: 0;
+}
+
 /*ヘッダー*/
 header {
     display: flex;
@@ -35,6 +39,11 @@ h1{
     margin: 0;
     margin-left: 10px;
     color: black;
+}
+
+.cachcopy{
+    text-align: center;
+    height: 95vh;
 }
 
 .slide-items{
@@ -158,6 +167,20 @@ li.changeItem.gridCard a img {
 li.changeItem.gridCard .changeItemTxt ul.itemTag {
     display:none;
 }
+
+footer{
+    background-color: bisque;
+    box-shadow: 0px 1px 5px gray inset;
+
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px) {
 /* （ここにモバイル用スタイルを記述） */
 li.changeItem.gridCard {
