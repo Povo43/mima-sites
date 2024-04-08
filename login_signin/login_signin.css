@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Zenkurenaido;
+    font-display: swap;
+    src: url("../fonts/ZenKurenaido-Regular.ttf") format("TrueType");
+}
+
+body{
+    background-color: #E8DDB5;
+    margin: 0;
+    font-family: 'Zenkurenaido', sans-serif;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.forms{
+    margin: 20vh auto auto auto;
+}
+
+.form_bg{
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    border: 1.5px solid #000000b0;
+    box-shadow: 2px 2px 5px 0 #00000060;
+        /* グリッドレイアウト */
+        display: grid; 
+        grid-template-columns: minmax(auto, 377px);
+        justify-content: center;
+}
+
+#login_title{
+    margin: 30px auto 30px auto;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgba(255, 163, 50, 0.644);
+    text-align: center;
+    width: 100vw;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
