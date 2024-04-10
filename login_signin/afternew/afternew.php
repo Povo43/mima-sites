@@ -30,6 +30,6 @@ if ($member['mail'] === $mail) {
     $stmt->bindValue(':pass', $pass);
     $stmt->execute();
     $msg = '会員登録が完了しました';
-    $link = '<a href="login.php">ログインページ</a>';
+    $link = '<a href="../login.php">ログインページ</a>';
 }
 ?>
