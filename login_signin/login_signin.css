@@ -12,14 +12,18 @@ body{
     font-family: 'Zenkurenaido', sans-serif;
 }
 
-.logo{
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid black;
+header{
+    height: 10vh;
 }
 
-.forms{
-    margin: 20vh auto auto auto;
+header h1{
+    text-align: center;
+}
+
+.logo{
+    height: 7.5vh;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .form_bg{

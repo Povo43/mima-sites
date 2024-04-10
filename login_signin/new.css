@@ -1,13 +1,10 @@
 @charset "utf-8";
 
-.forms{
-}
-
 form{
-    height: 250px;
+    height: 400px;
         /* グリッドレイアウト */
         display: grid; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1.25fr;
+        grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr 1.25fr;
         grid-template-columns: 1fr;
 }
 
@@ -49,8 +46,26 @@ form{
     color: #0300b9;
 }
 
-#signin-pass{
+#name{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: auto;
+}
+
+#email{
     grid-row: 2/3;
+    grid-column: 1/2;
+    margin: auto;
+}
+
+#pass{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin: auto;
+}
+
+#re-pass{
+    grid-row: 5/6;
     grid-column: 1/2;
     margin: auto;
 }
@@ -63,7 +78,7 @@ form{
     border-color: #d4f1cbf1;
     border: 0px;
 
-    grid-row: 4/5;
+    grid-row: 6/7;
     grid-column: 1/2;
     margin: auto auto 40px auto;
 }

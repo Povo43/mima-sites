@@ -54,6 +54,12 @@ h1{
     background-position: center;
 }
 
+.full h2{
+    font-size: 4rem;
+    position: inherit;
+    top: 40vh;
+}
+
 .slide-items{
     padding-left: 0;
     margin-top: 0;

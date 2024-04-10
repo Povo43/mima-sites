@@ -10,20 +10,18 @@
  </head>
  <body>
     <header>
-			<a href="../../index.html" class="header-logo"><img src="../images/logos/mima-5.jpeg" alt="logo" class="logo"></a>
+			<h1><a href="../../index.html" class="header-logo"><img src="../images/logos/mima-5.jpeg" alt="logo" class="logo"></a></h1>
 	</header>
 
- <div class="forms">
 	<div class="form_bg">
 		<div id="login_title">ログイン</div>
-		<form action="" method="POST">
+		<form action="./afternew/afternew.php" method="POST">
 	   	    <input id="signin-id" name="username" type="text" placeholder="ユーザー名 または メールアドレス">
-    	    <input id="signin-pass" name="password" type="text" placeholder="パスワード">
+    	    <input id="signin-pass" name="password" type="password" placeholder="パスワード">
 			<p class="form-p">アカウントがありませんか?<a href="New.php">作成</a>してみましょう!</p>
     	    <button class="form-button" name="signin" type="submit">ログインする</button>
     	</form>
 	</div>
-</div>
 
 	<footer>
 		<div class="footer">
